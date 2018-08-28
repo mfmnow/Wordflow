@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "dependenciesIds": null
+  },
+  {
+    "id": 1,
+    "dependenciesIds": null
+  },
+  {
+    "id": 2,
+    "dependenciesIds": [ 1 ]
+  },
+  {
+    "id": 3,
+    "dependenciesIds": [ 0 ]
+  },
+  {
+    "id": 4,
+    "dependenciesIds": null
+  },
+  {
+    "id": 5,
+    "dependenciesIds": [ 3 ]
+  },
+  {
+    "id": 6,
+    "dependenciesIds": [ 2,4,5 ]
+  },
+  {
+    "id": 7,
+    "dependenciesIds": [ 5,6 ]
+  }
+]
